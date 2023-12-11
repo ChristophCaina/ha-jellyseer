@@ -1,11 +1,17 @@
+## What is this?
+This project is a fork of @vaparr's ha-overseer custom integration.  
+The reason for the fork is the inactivity of the project and the adaption to jellyseerr
+
 ---
-title: Overseerr
-description: Instructions on how to set up the Overseerr integration in Home Assistant.
+title: Jellyseer
+description: Instructions on how to set up the Jellyseer integration in Home Assistant.
 ha_category:
   - Sensor
-ha_domain: overseerr
+ha_domain: jellyseer
 ---
 
+needs to be modified
+---
 The `Overseerr` integration monitors data from your [Overseerr](https://overseerr.dev) instance.
 
 ## Setup
