@@ -1,4 +1,4 @@
-# Overseerr services.yaml entries
+# Jellyseerr services.yaml entries
 submit_movie_request:
   description: Searches for a movie and requests the first result.
   fields:
