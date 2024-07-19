@@ -1,4 +1,6 @@
 {
   "name": "Jellyseerr",
-  "render_readme": true
+  "render_readme": true,
+  "documentation": "https://github.com/ChristophCaina/ha-jellyseerr",
+  "content_in_root": false,
 }
