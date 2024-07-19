@@ -1,4 +1,4 @@
-"""Support for Overseerr."""
+"""Support for Jellyseer."""
 ATTR_NAME = "name"
 ATTR_SEASON = "season"
 ATTR_ID = "request_id"
@@ -6,7 +6,7 @@ ATTR_STATUS = "new_status"
 
 CONF_URLBASE = "urlbase"
 
-DEFAULT_NAME = DOMAIN = "overseerr"
+DEFAULT_NAME = DOMAIN = "jellyseer"
 DEFAULT_PORT = 5055
 DEFAULT_SEASON = "latest"
 DEFAULT_SSL = False
