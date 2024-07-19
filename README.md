@@ -12,27 +12,28 @@ ha_domain: jellyseer
 
 needs to be modified
 ---
-The `Overseerr` integration monitors data from your [Overseerr](https://overseerr.dev) instance.
+The `Jellyseer` integration monitors data from your Jellyseer instance.
 
 ## Setup
 Install of this component should be done via HACS
 * Go into HACS -> Intregrations
 * 3 Dots -> Custom Repositories
-* Add Custom Repository URL: https://github.com/vaparr/ha-overseerr
+* Add Custom Repository URL: https://github.com/ChristophCaina/ha-jellyseerr
 * Category: Integration
 
 Restart HA
 
 ---
 
-This component needs to authenticate to your Overseerr instance using your `api_key`.
+This component needs to authenticate to your Jellyseer instance using your `api_key`.
 
-To find your `api_key` open the Overseerr web interface. Navigate to **Settings**, you should then be able to see your `api_key`.
+To find your `api_key` open the Jellyseer web interface. Navigate to **Settings**, you should then be able to see your `api_key`.
 
 
 ## Configuration
 
-If you want to enable this sensor, add the following lines to your `configuration.yaml`:
+If you want to enable this sensor, add the following lines to your `configuration.yaml`:  
+__this is still based on the overseer integration, but will be changed in the near future__
 
 ```yaml
 # Example configuration.yaml entry
@@ -106,13 +107,13 @@ Searches and requests the closest matching TV show.
 
 You can enable Webhook support in Overseerr to enable faster pending sensor updates.
 
-In overseerr, navigate to Settings -> Notifications > Webhook
+In Jellyseer, navigate to Settings -> Notifications > Webhook
 
 Check Enable Agent
 
 for the Webhook URL use:
 
-{{HA SERVER URL}}/api/webhook/{{OVERSEERR API KEY}}
+{{HA SERVER URL}}/api/webhook/{{JELLYSEER API KEY}}
 
 http://homassist.local:8123/api/webhook/MTYwODIpppppppppppppppYzLTI0OqqqqqqqqqqqqzIwLeeeeeee==
 
