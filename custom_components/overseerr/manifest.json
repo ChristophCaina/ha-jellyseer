@@ -1,9 +1,9 @@
 {
-  "domain": "overseerr",
-  "name": "Overseerr",
-  "documentation": "https://github.com/vaparr/ha-overseerr",
-  "issue_tracker": "https://github.com/vaparr/ha-overseerr/issues",
-  "codeowners": ["@vaparr"],
-  "requirements": ["pyoverseerr==0.1.40"],
-  "version": "0.1.42"
+  "domain": "jellyseer",
+  "name": "Jellyseerr",
+  "documentation": "https://github.com/ChristophCaina/ha-jellyseerr",
+  "issue_tracker": "https://github.com/ChristophCaina/ha-jellyseerr/issues",
+  "codeowners": ["@ChristophCaina"],
+  "requirements": ["jellyseerr==0.1.0"],
+  "version": "0.1.0"
 }
